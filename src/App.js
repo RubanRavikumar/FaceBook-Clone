@@ -1,7 +1,5 @@
-
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Video from "./components/video/Video";
@@ -11,8 +9,8 @@ import Groups from "./components/groups/Groups";
 import Gaming from "./components/gaming/Gaming";
 import Friends from "./components/friends/Friends";
 import Profile from "./components/profile/Profile";
-import Memories from "./components/memories/Memories"
-import Saved from "./components/saved/Saved"
+import Memories from "./components/memories/Memories";
+import Saved from "./components/saved/Saved";
 import Feeds from "./components/feeds/Feeds";
 import Event from "./components/event/Event";
 import Ads from "./components/ads/Ads";
@@ -29,13 +27,18 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleLogin = (userdata) => {
+    const emailvalidate = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$/;
+    const passvalidate =
+      /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).{8,}$/;
     if (
-      userdata.username === "" && 
-      userdata.password === ""
+      userdata.email !== "" &&
+      emailvalidate.test(userdata.email) &&
+      userdata.password !== "" &&
+      passvalidate.test(userdata.password)
     ) {
       setIsAuthenticated(true);
     } else {
-      alert("Invalid Username or Password");
+      alert("Invalid valid Username or Password");
     }
   };
 

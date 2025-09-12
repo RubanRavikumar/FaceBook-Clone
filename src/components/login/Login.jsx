@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import './Login.css'
 
 function Login({ onLogin }) {
-  const [username, setUsername] = useState("");
+  const [email, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onLogin({ username, password });
+    onLogin({ email, password });
   };
 
    const togglePasswordVisibility = () => {
@@ -38,7 +38,7 @@ function Login({ onLogin }) {
                         className="form-control"
                         type="text"
                         placeholder="Email address or phone number"
-                        value={username}
+                        value={email}
                         onChange={(e) => setUsername(e.target.value)}
                       />
                     </div>
