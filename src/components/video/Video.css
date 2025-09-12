@@ -1,0 +1,50 @@
+.video{
+    margin-top: 60px;
+}
+
+.fw-1{
+  font-weight: 100;
+}
+.fw-2{
+  font-weight: 200;
+}
+.fw-3{
+  font-weight: 300;
+}
+.fw-4{
+  font-weight: 400;
+}
+.fw-5{
+  font-weight: 500;
+}
+.fw-6{
+  font-weight: 600;
+}
+.fw-7{
+  font-weight: 700;
+}
+
+.bg-color-light-gray{
+    background-color:#f0f2f5;
+}
+
+.bg-color-gray{
+    background-color: #e2e5e9;
+}
+
+.icon-size{
+    padding: 2px;
+    font-size: xx-large;
+}
+
+.hover-effect:hover{
+    background-color: #f0f2f5;
+}
+
+.bg-color{
+      background-color: #f2f4f7;
+}
+
+.video-position{
+  margin: 10px 250px;
+}

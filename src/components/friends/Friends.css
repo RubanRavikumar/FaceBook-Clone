@@ -1,0 +1,11 @@
+.friends{
+    margin-top: 60px;
+}
+
+.item-active{
+    color: blue;
+}
+
+.item-inactive{
+    color: black;
+}

@@ -1,0 +1,261 @@
+.home{
+    padding-top: 50px; 
+    background-color: #f2f4f7;
+}
+
+.left-side-bar {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 6px;
+  font-weight: 500;
+}
+
+.left-side-bar:hover { 
+  background-color: #e2e5e9;
+  border-radius: 10px ;
+}
+
+.bookmark{
+  color: #a157e7;
+}
+.kids-messenger{
+  color: #44bfda;
+}
+.profile-pic{
+  width: 35px;
+  border-radius: 50%;
+}
+.s-bg{
+    background-color: #f0f2f5;
+}
+.icon-bg{
+    background-color: #dcdfe3;
+}
+
+.position-center{
+  margin: 0px 100px;
+}
+.photo-color{
+  color: rgb(89, 240, 89);
+}
+
+.hover-effect:hover{
+  background-color: #f0f2f5;
+  border-radius: 5px;
+}
+
+.scroll-bar {
+  max-height: 100vh;       
+  overflow-y: hidden;       
+  transition: overflow 0.3s ease;
+}
+
+.scroll-bar:hover {
+  overflow-y: auto;        
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.shortcuts{
+  font-weight: 600;
+  font-size:larger;
+  color: #888;
+}
+
+.privacy-font{
+  font-size: smaller;
+}
+
+.fw-1{
+  font-weight: 100;
+}
+.fw-2{
+  font-weight: 200;
+}
+.fw-3{
+  font-weight: 300;
+}
+.fw-4{
+  font-weight: 400;
+}
+.fw-5{
+  font-weight: 500;
+}
+.fw-6{
+  font-weight: 600;
+}
+.fw-7{
+  font-weight: 700;
+}
+
+.story-card {
+  position: relative;
+  width: 110px;
+  height: 180px;
+  border-radius: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.story-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.create-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: white;
+  padding: 5px;
+}
+
+.plus-icon {
+  width: 35px;
+  height: 35px;
+  margin: -20px auto 5px auto;
+  border-radius: 50%;
+  background: #0d6efd;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white;
+}
+
+.profile-ring {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 38px;
+  height: 38px;
+  border: 2px solid #0d6efd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-ring img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-name {
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 0 4px rgba(0,0,0,0.8);
+}
+
+.badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: white;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.my-status{
+  padding: 0px;
+  width: 100px;
+  height: 140px;
+}
+
+.status-image{
+  width: auto;
+  height: 140px;
+}
+.col-width{
+  width: 25px;
+}
+.stories-container {
+  white-space: nowrap;
+}
+
+.story-card {
+  position: relative;
+  width: 120px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f5f5f5;
+  flex: 0 0 auto; /* prevent shrinking */
+}
+
+.story-img {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.story-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: white;
+  color: black;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.story-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 6px 0;
+}
+
+.create-icon {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1877f2;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FaRegCircle{
+  border: 1px solid black;
+  padding: 2px;
+  font-size:xx-large;
+}
+
+.img-w{
+  width: 40px;
+  height: 40px;
+}

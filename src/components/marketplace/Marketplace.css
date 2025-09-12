@@ -1,0 +1,31 @@
+.marketplace{
+    margin-top: 60px;
+}
+
+.btn-bg{
+    background-color: #ebf5ff;
+}
+
+
+.scroll-bar {
+  max-height: 100vh;       
+  overflow-y: hidden;       
+  transition: overflow 0.3s ease;
+}
+
+.scroll-bar:hover {
+  overflow-y: auto;        
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
