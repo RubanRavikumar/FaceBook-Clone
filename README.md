@@ -5,7 +5,7 @@ This project is a **React-based front-end application** that replicates the look
 ---
 ## 👉 Poject Link
 
-* Open to view it in your browser ( fb-clone-site.netlify.app/ )
+Open to view it in your browser ( https://aurora-jewellery.netlify.app/ )
 ---
 ## 🚀 Features
 
