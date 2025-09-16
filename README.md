@@ -26,7 +26,3 @@ This project is a **React-based front-end application** that replicates the look
 - **CSS Modules**
 - **JavaScript (ES6+)**
 - **Static assets** (images)
-
----
-
-## 📂 Project Structure
