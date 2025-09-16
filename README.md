@@ -1,6 +1,6 @@
 # React Social Media UI Clone
 
-This project is a **React-based front-end application** that replicates the look and feel of a social media platform (similar to Facebook). It includes modular components for feeds, friends, groups, ads, gaming, events, and more.
+This project is a **React-based front-end application** that replicates the look and feel of Facebook. It includes modular components for feeds, friends, groups, ads, gaming, events, and more.
 
 ---
 
